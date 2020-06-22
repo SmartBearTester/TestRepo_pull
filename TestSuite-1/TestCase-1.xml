@@ -10,15 +10,15 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>http://localhost:8080</con:endpoint>
-        <con:request>{"request" : "request_value"}</con:request>
+        <con:endpoint>http://remote:8080</con:endpoint>
+        <con:request>{"request" : "remote change"}</con:request>
         <con:credentials>
           <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
           <con:authType>No Authorization</con:authType>
         </con:credentials>
         <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
         <con:parameters>
-          <con:entry key="param" value="response_value"/>
+          <con:entry key="param" value="remote change"/>
         </con:parameters>
         <con:parameterOrder>
           <con:entry>param</con:entry>
